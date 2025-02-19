@@ -1,17 +1,17 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: #181818;
+    background-color: #121212;
     color: #e0e0e0;
     margin: 0;
     padding: 50px;
 }
 
 .container {
-    background: #242424;
+    background: #1e1e1e;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.8);
     display: inline-block;
 }
 
@@ -20,42 +20,14 @@ button {
     padding: 12px 24px;
     margin-top: 20px;
     cursor: pointer;
-    background-color: #bb86fc;
+    background-color: #6200ea;
     color: #ffffff;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-    background-color: #9b59b6;
-    transform: translateY(-2px);
-}
-
-#chat-container {
-    margin-top: 20px;
-}
-
-#chat-display {
-    border: 1px solid #444;
-    padding: 12px;
-    height: 200px;
-    overflow-y: auto;
-    margin-bottom: 10px;
-    background-color: #242424;
-    color: #e0e0e0;
-    border-radius: 6px;
-}
-
-#chat-input {
-    width: calc(100% - 60px);
-    padding: 12px;
-    background-color: #333;
-    color: #ffffff;
-    border: none;
-    border-radius: 6px;
-}
-
-#chat-input::placeholder {
-    color: #aaa;
+    background-color: #3700b3;
+    transform: translateY(-3px);
 }
